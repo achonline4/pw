@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":[["Choose","A distribution to uniformly sample elements of a slice"],["Empty","Error: empty slice"]]};

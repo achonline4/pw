@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":[["StepRng","A mock generator yielding very predictable output"]]};
