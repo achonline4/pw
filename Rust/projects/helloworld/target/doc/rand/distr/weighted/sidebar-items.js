@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["Error","Invalid weight errors"]],"struct":[["WeightedIndex","A distribution using weighted sampling of discrete items."]],"trait":[["Weight","Bounds on a weight"]]};
