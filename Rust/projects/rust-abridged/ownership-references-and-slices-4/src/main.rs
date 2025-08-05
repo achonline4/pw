@@ -2,6 +2,15 @@ fn main() {
     println!("Ownership");
     let outer_string = transfer_ownership();
     println!("outer string: {}", outer_string);
+
+    let new_heap_mem = deep_copy_data(outer_string);
+    println!("new string content: {}", new_heap_mem);
+}
+
+fn deep_copy_data(s: String) -> String {
+    println!("Input for deep copy: {}", s);
+    let newstr = s.clone();
+    return newstr;
 }
 
 fn transfer_ownership() -> String {
