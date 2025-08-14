@@ -6,7 +6,7 @@ struct User {
     email: String,
     sign_in_count: u64,
     // NOTE: that we are not declaring variable names with 'let' here. We are just
-    // specifying the struct field names, that is required when we declare variable names.
+    // specifying the struct field names, that is required when we declare struct instances.
 } // NOTE: we don't need a terminating ';' like in C.
 fn main() {
     println!("Using structs");
