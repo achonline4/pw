@@ -7,9 +7,9 @@
 | 1.   | Rust book abridged <br/>https://jasonwalton.ca/rust-book-abridged/https://jasonwalton.ca/rust-book-abridged/ | A condensed version of the original rust book - https://doc.rust-lang.org/stable/book/<br/><br/>Recommended for experienced users only. |
 | 2.   | https://github.com/rust-embedded/awesome-embedded-rust?tab=readme-ov-file                                    | Curated List of Rust resources                                                                                                          |
 
-Installing Rust
+#### Installing Rust
 
-1. Installing Rust requires **curl** but the snapd version of curl gives the following error -
+1. Installing Rust requires **curl** but the snapd version of curl gives the following error because it does not allow the application to write in /tmp -
 
 ![](readmeimages/rust-install-curl-snapd-version-issue.png)
 
